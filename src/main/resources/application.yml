@@ -1,0 +1,15 @@
+spring:
+ application:
+   name: prueba-tecnica
+ datasource:
+   url: jdbc:sqlserver://localhost:1433;databaseName=testConsult;encrypt=false
+   username: alexander
+   password: 4237071zxcvb
+   driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+ jpa:
+   hibernate:
+     ddl-auto: update
+   show-sql: false
+   generate-ddl: false
+server: 
+  port: 8082
